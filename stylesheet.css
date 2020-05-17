@@ -1,7 +1,6 @@
 body{
   background: black;
   color: white;
-  text-decoration: none;
 }
 
 header{
@@ -9,5 +8,5 @@ header{
 }
 
 main a{
-
+  text-decoration: none;
 }
