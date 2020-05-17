@@ -2,12 +2,12 @@ body{
   background: black;
   color: white;
   display:flex;
-  text-align: center;
-  align-items: center;
+
 }
 
 header{
-
+  text-align: center;
+  align-items: center;
 }
 
 a{
