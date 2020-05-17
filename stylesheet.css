@@ -1,16 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
-  background: black;
+  min-height: 100%;
+  /* background: black; */
   color: white;
-  display:flex;
+  text-align: center;
+  align-items: center;
+  background: url("https://source.unsplash.com/random") fixed;
+  background-size: cover;
+  font-weight: bold;
 
 }
 
 header{
-  text-align: center;
-  align-items: center;
+  width: 100%;
+
 }
 
 a{
   text-decoration: none;
   color: white;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  padding: 0.5px;
+  background: #000b00;
 }
